@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    /* height: 100vh; */
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    /* flex:1; */
+    flex-direction:column;
+}
+
+.section1{
+    display:flex;
+    /* flex:1; */
+    height:205.25px;
+    background-color: #fafafa;
+    flex-direction: column;
+}
+
+.sec1Diagrams{
+    display: flex;
+    flex:5;
+    height:171.04px;
+}
+
+.sec1diagram1{
+    display: flex;
+    width: 433.34px;
+    height: 171.05px;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #1e3f66;
+    border-radius: 10px;
+}
+
+.sec1diagram1Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 44.43px;
+    background-color: #1e3f66;
+    color:white;
+}
+
+.sec1diagram1Heading > p{
+    transform: rotate(90deg);
+}
+.sec1diagram1Info{
+    margin-top: 5px;
+    display: flex;
+    width:374.91px;
+}
+
+.sec1diagram2{
+    display: flex;
+    width: 433.34px;
+    height: 171.05px;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #5aab61;
+    border-radius: 10px;
+}
+
+.sec1diagram2Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 44.43px;
+    background-color: #5aab61;
+    color:white;
+}
+
+.sec1diagram2Heading > p{
+    transform: rotate(90deg);
+}
+
+.sec1diagram2Info{
+    margin-top: 5px;
+    display: flex;
+    width:374.91px;
+}
+
+.sec1diagram3{
+    display: flex;
+    width: 433.34px;
+    height: 171.05px;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #1e3f66;
+    border-radius: 10px;
+}
+
+.sec1diagram3Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 44.43px;
+    background-color: #1e3f66;
+    color:white;
+}
+
+.sec1diagram3Heading > p{
+    transform: rotate(90deg);
+}
+
+.sec1diagram3Info{
+    margin-top: 5px;
+    display: flex;
+    width:374.91px;
+}
+
+.sec1Text{
+    margin-top: 5px;
+    display: flex;
+    height:34.21px;
+    color: #1e3f66;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2{
+    display:flex;
+    flex-direction: column;
+    /* flex:1; */
+    height:205.25px;
+    background-color: #f5f5f5;
+}
+
+.sec2Header{
+    display:flex;
+    align-items: center;
+    height: 34.21px;
+    background-color: #1e3f66;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+}
+
+.sec2Text{
+    margin-top: 5px;
+    display: flex;
+    height: 171.04px;
+}
+
+.section3{
+    display:flex;
+    flex-direction: column;
+    /* flex:2; */
+    height: 700px;
+    background-color: #fafafa;
+}
+
+.sec3Header{
+    display:flex;
+    align-items: center;
+    height: 34.21px;
+    background-color: #1e3f66;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+}
+
+.sec3Text{
+    margin-top: 5px;
+    display: flex;
+    height: 171.04px;
+}
+
+.sec3Diagrams{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 494.75px;
+}
+
+.sec3Diagram1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 400px;
+    width: 650px;
+    border: 2px solid #1e3f66;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+    align-self: flex-start;
+}
+
+.sec3Diagram2{
+    display: flex;
+    height:490px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 650px;
+    margin:10px;
+}
+
+.table{
+    border:2px solid #1e3f66;
+    width: 100%;
+    height:auto;
+}
+
+thead{
+    background-color:#1e3f66 ;
+    color: white;
+}
+.section4{
+    display:flex;
+    flex-direction: column;
+    /* flex:1; */
+    height:821px;
+    background-color: #f5f5f5;
+}
+
+.sec4Header{
+    display:flex;
+    align-items: center;
+    height: 34.21px;
+    background-color: #1e3f66;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+}
+
